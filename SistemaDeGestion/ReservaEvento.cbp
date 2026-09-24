@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ReservaEvento" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ReservaEvento" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../ReservaEvento" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ReservaEvento" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../ReservaEvento" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="App.cpp" />
+		<Unit filename="App.h" />
+		<Unit filename="ArcDetallePago.cpp" />
+		<Unit filename="ArcDetallePago.h" />
+		<Unit filename="ArcEventoServicios.cpp" />
+		<Unit filename="ArcEventoServicios.h" />
+		<Unit filename="ArcPagos.cpp" />
+		<Unit filename="ArcPagos.h" />
+		<Unit filename="ArchivoClientes.cpp" />
+		<Unit filename="ArchivoClientes.h" />
+		<Unit filename="ArchivoEvento.cpp" />
+		<Unit filename="ArchivoEvento.h" />
+		<Unit filename="ArchivoServicios.cpp" />
+		<Unit filename="ArchivoServicios.h" />
+		<Unit filename="Clientes.cpp" />
+		<Unit filename="Clientes.h" />
+		<Unit filename="DetallePago.cpp" />
+		<Unit filename="DetallePago.h" />
+		<Unit filename="EventoServicios.cpp" />
+		<Unit filename="EventoServicios.h" />
+		<Unit filename="Eventos.cpp" />
+		<Unit filename="Eventos.h" />
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Fecha.h" />
+		<Unit filename="ManagerClientes.cpp" />
+		<Unit filename="ManagerClientes.h" />
+		<Unit filename="ManagerDetallePago.cpp" />
+		<Unit filename="ManagerDetallePago.h" />
+		<Unit filename="ManagerEvento.cpp" />
+		<Unit filename="ManagerEvento.h" />
+		<Unit filename="ManagerEventoServicios.cpp" />
+		<Unit filename="ManagerEventoServicios.h" />
+		<Unit filename="ManagerPago.cpp" />
+		<Unit filename="ManagerPago.h" />
+		<Unit filename="ManagerServicios.cpp" />
+		<Unit filename="ManagerServicios.h" />
+		<Unit filename="MenuCliente.cpp" />
+		<Unit filename="MenuCliente.h" />
+		<Unit filename="MenuEventoServicios.cpp" />
+		<Unit filename="MenuEventoServicios.h" />
+		<Unit filename="MenuEventos.cpp" />
+		<Unit filename="MenuEventos.h" />
+		<Unit filename="MenuPagos.cpp" />
+		<Unit filename="MenuPagos.h" />
+		<Unit filename="Necesario.cpp" />
+		<Unit filename="Necesario.h" />
+		<Unit filename="Pagos.cpp" />
+		<Unit filename="Pagos.h" />
+		<Unit filename="Servicios.cpp" />
+		<Unit filename="Servicios.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="rlutil.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
